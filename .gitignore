@@ -1,0 +1,22 @@
+# --- DATI GREZZI E PROCESSATI (Non caricare su GitHub) ---
+data/raw/
+data/processed/
+*.xml
+*.csv
+
+# --- FILE TEMPORANEI E DI SISTEMA ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- PYTHON & NOTEBOOK ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+venv/
+env/

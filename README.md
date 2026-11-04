@@ -7,6 +7,8 @@ The methodology strictly adheres to the **CRISP-DM (Cross-Industry Standard Proc
 
 Developed as the Final Assignment for the **Machine Learning & Data Mining** course (Module 2) at the **University of Bologna (UNIBO)** under the supervision of **Prof. Matteo Francia**.
 
+Note: The project documentation and Jupyter Notebooks are written in Italian for academic evaluation purposes.
+
 ---
 
 ## 👤 Author & Academic Credits

@@ -27,8 +27,8 @@ progetto-ml-pun/
 │   ├── raw/                            <- Raw GME PUN clearing prices and Open-Meteo hourly observations
 │   └── processed/                      <- Feature-engineered analytical dataset (processed matrix)
 ├── notebooks/                          <- Executable Google Colab notebooks
-│   ├── 01_data_ingestion_and_eda.ipynb <- Ingestion, time-alignment (UTC/CET), DST management, and EDA
-│   └── 02_preprocessing_and_modeling.ipynb <- Feature engineering, multi-horizon split, tuning & benchmarking
+│   ├── 01_data_ingestion.ipynb         <- Data Ingestion, Weather Integration, Feature Engineering & Data Split
+│   └── 02_modeling.ipynb               <- Baseline models, Multi-Horizon Training (24h/48h/72h) & Evaluation
 └── docs/                               <- Academic deliverables
     ├── paper/                          <- LaTeX sources for the 4-page IEEEtran paper
     ├── presentation/                   <- Exam slides (10-minute presentation)

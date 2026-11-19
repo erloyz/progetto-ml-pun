@@ -1,0 +1,31 @@
+Orizzonte,Modello,MAE (€/MWh),RMSE (€/MWh),sMAPE (%)
+24h,Naive Persistence (Lag-24h),10.308,16.097,10.47
+24h,Seasonal Naive (Lag-168h),11.371,16.501,11.29
+48h,Naive Persistence (Lag-48h),13.064,19.764,12.99
+48h,Seasonal Naive (Lag-168h),11.371,16.501,11.29
+72h,Naive Persistence (Lag-72h),14.24,21.459,14.08
+72h,Seasonal Naive (Lag-168h),11.371,16.501,11.29
+24h,Ridge,8.775,11.939,8.5
+24h,Lasso,8.398,11.882,8.23
+24h,Decision Tree,9.422,13.564,9.29
+24h,Random Forest,7.984,11.627,7.81
+24h,XGBoost,7.869,11.298,7.66
+24h,SVR (RBF),8.554,12.049,8.21
+24h,MLP Regressor,8.547,11.7,8.16
+48h,Ridge,9.802,13.207,9.36
+48h,Lasso,9.473,13.084,9.13
+48h,Decision Tree,10.97,15.579,10.46
+48h,Random Forest,8.92,12.831,8.59
+48h,XGBoost,8.993,12.551,8.56
+48h,SVR (RBF),8.863,12.801,8.56
+48h,MLP Regressor,9.962,13.24,9.36
+72h,Ridge,10.222,13.764,9.71
+72h,Lasso,9.923,13.588,9.52
+72h,Decision Tree,10.814,15.521,10.41
+72h,Random Forest,9.445,13.481,8.98
+72h,XGBoost,9.502,13.137,8.98
+72h,SVR (RBF),9.344,13.307,8.97
+72h,MLP Regressor,10.27,13.756,9.59
+24h,Ensemble (24h: 50% XGB + 30% RF + 20% MLP),7.713,11.107,7.51
+48h,Ensemble (48h: 45% XGB + 35% SVR + 20% RF),8.667,12.335,8.34
+72h,Ensemble (72h: 40% XGB + 40% SVR + 20% RF),9.097,12.86,8.69

@@ -1,0 +1,7 @@
+Orizzonte,Confronto,DM Statistic,p-value,Significativo (alpha=0.05)
+24h,Ensemble vs Naive Persistence (Lag-24h),15.7731,0.00e+00,Sì (p < 0.001)
+24h,Ensemble vs Seasonal Naive (Lag-168h),17.2037,0.00e+00,Sì (p < 0.001)
+48h,Ensemble vs Naive Persistence (Lag-48h),20.7991,0.00e+00,Sì (p < 0.001)
+48h,Ensemble vs Seasonal Naive (Lag-168h),14.1915,0.00e+00,Sì (p < 0.001)
+72h,Ensemble vs Naive Persistence (Lag-72h),21.4709,0.00e+00,Sì (p < 0.001)
+72h,Ensemble vs Seasonal Naive (Lag-168h),12.9632,0.00e+00,Sì (p < 0.001)

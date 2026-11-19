@@ -1,24 +1,23 @@
-# --- DATI GREZZI E PROCESSATI (Non caricare su GitHub) ---
-data/raw/
-data/processed/
-*.xml
-*.csv
-
-# --- FILE TEMPORANEI E DI SISTEMA ---
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# --- PYTHON & NOTEBOOK ---
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-.env
+# Ambienti virtuali e cache Python
+.venv/
 venv/
-env/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 .jupyter/
-*.jupyterlab-workspace
+
+# File di sistema macOS
+.DS_Store
+
+# Modelli binari serializzati (rigenerati da 02_modeling.ipynb)
+artifacts/models/*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# Archivi e file temporanei
+*.zip
+*.tar.gz
+notebooks/*.txt

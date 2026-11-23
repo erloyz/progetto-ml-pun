@@ -7,8 +7,8 @@ Orizzonte,Modello,Ore Critiche (>20 €/MWh),Anomaly Index (%)
 24h,Random Forest,341/4393,7.76
 24h,XGBoost,308/4393,7.01
 24h,SVR (RBF),318/4393,7.24
-24h,MLP Regressor,300/4393,6.83
-24h,Ensemble,264/4393,6.01
+24h,MLP Regressor,357/4393,8.13
+24h,Ensemble,284/4393,6.46
 48h,Naive Persistence (Lag-48h),904/4393,20.58
 48h,Seasonal Naive (Lag-168h),755/4393,17.19
 48h,Ridge,471/4393,10.72
@@ -17,8 +17,8 @@ Orizzonte,Modello,Ore Critiche (>20 €/MWh),Anomaly Index (%)
 48h,Random Forest,415/4393,9.45
 48h,XGBoost,380/4393,8.65
 48h,SVR (RBF),393/4393,8.95
-48h,MLP Regressor,477/4393,10.86
-48h,Ensemble,371/4393,8.45
+48h,MLP Regressor,475/4393,10.81
+48h,Ensemble,355/4393,8.08
 72h,Naive Persistence (Lag-72h),983/4393,22.38
 72h,Seasonal Naive (Lag-168h),755/4393,17.19
 72h,Ridge,541/4393,12.32
@@ -27,5 +27,5 @@ Orizzonte,Modello,Ore Critiche (>20 €/MWh),Anomaly Index (%)
 72h,Random Forest,481/4393,10.95
 72h,XGBoost,472/4393,10.74
 72h,SVR (RBF),477/4393,10.86
-72h,MLP Regressor,510/4393,11.61
-72h,Ensemble,448/4393,10.2
+72h,MLP Regressor,560/4393,12.75
+72h,Ensemble,466/4393,10.61
